@@ -8,7 +8,7 @@ public class Tamal {
     private float peso;
 
     public Tamal() {
-        //
+        super();
     }
 
     public String getColor() {
