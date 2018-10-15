@@ -1,6 +1,6 @@
 package co.edu.sena.ejercicios.ejercicio02;
 
-public class Mamifero extends Vertebrado {
+public abstract class Mamifero extends Vertebrado {
     @Override
     public void nacer() {
         System.out.println("nazco del utero de mi madre");
