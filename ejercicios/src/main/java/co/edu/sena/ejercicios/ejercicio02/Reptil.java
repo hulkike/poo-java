@@ -1,6 +1,6 @@
 package co.edu.sena.ejercicios.ejercicio02;
 
-public class Reptil extends Vertebrado {
+public abstract class Reptil extends Vertebrado {
     @Override
     public void desplazarse() {
         System.out.println("me desplazo caminando");
