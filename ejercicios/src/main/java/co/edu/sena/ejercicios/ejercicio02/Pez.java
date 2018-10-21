@@ -1,6 +1,6 @@
 package co.edu.sena.ejercicios.ejercicio02;
 
-public class Pez extends Vertebrado {
+public abstract class Pez extends Vertebrado {
     @Override
     public void desplazarse() {
         System.out.println("yo nado");
@@ -16,8 +16,4 @@ public class Pez extends Vertebrado {
         System.out.println("de huevos");
     }
 
-    @Override
-    public void comer() {
-        System.out.println("omnívoro me alimento de planton");
-    }
 }
