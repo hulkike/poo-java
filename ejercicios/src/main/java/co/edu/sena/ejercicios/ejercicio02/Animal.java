@@ -3,7 +3,7 @@ package co.edu.sena.ejercicios.ejercicio02;
 public abstract class Animal {
     public abstract void respirar();
     public void morir(){
-        System.out.println("me mori");
+        System.out.println("muero y me descompongo como cualquier animal");
     }
     public abstract void comer();
     public abstract void desplazarse();
