@@ -1,0 +1,11 @@
+package co.edu.sena.ejercicios.ejercicio04;
+
+public class Celular {
+    public void encender(){
+        System.out.println("prendido");
+    }
+
+    public void apagar(){
+        System.out.println("apagago");
+    }
+}
