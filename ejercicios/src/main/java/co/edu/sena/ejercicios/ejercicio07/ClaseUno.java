@@ -6,6 +6,8 @@ public class ClaseUno {
             public class ClaseCuatro {
                 public class ClaseCinco {
                     public class ClaseSeis {
+                        public class ClaseSiete {
+                        }
                     }
                 }
             }
