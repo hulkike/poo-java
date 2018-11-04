@@ -4,6 +4,8 @@ public class ClaseUno {
     public class ClaseDos {
         public class ClaseTres {
             public class ClaseCuatro {
+                public class ClaseCinco {
+                }
             }
         }
     }
