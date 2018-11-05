@@ -49,7 +49,12 @@ public class ClaseUno {
                                 }
 
                                 public class ClaseNueve implements InterfaceNueve {
-                                    public class ClaseDiez {
+
+                                    public InterfaceDiez getClaseDiez() {
+                                        return new ClaseDiez();
+                                    }
+
+                                    public class ClaseDiez implements InterfaceDiez {
                                     }
                                 }
                             }
