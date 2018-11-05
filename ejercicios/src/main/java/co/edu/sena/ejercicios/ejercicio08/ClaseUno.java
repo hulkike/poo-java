@@ -37,7 +37,12 @@ public class ClaseUno {
                         }
 
                         public class ClaseSiete implements InterfaceSiete {
-                            public class ClaseOcho {
+
+                            public InterfaceOcho getClaseOcho() {
+                                return new ClaseOcho();
+                            }
+
+                            public class ClaseOcho implements InterfaceOcho {
                                 public class ClaseNueve {
                                     public class ClaseDiez {
                                     }
