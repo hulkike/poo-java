@@ -7,6 +7,11 @@ public class ClaseUno {
     }
 
     public class ClaseDos implements InterfaceDos {
+
+        public InterfaceTres getClaseDos(){
+            return new ClaseTres();
+        }
+
         public class ClaseTres implements InterfaceTres {
             public class ClaseCuatro implements InterfaceCuatro {
                 public class ClaseCinco {
