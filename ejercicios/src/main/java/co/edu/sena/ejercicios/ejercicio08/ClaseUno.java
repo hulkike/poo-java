@@ -43,7 +43,12 @@ public class ClaseUno {
                             }
 
                             public class ClaseOcho implements InterfaceOcho {
-                                public class ClaseNueve {
+
+                                public InterfaceNueve getClaseNueve() {
+                                    return new ClaseNueve();
+                                }
+
+                                public class ClaseNueve implements InterfaceNueve {
                                     public class ClaseDiez {
                                     }
                                 }
