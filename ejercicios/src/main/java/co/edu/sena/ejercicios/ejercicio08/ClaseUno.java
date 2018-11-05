@@ -8,18 +8,23 @@ public class ClaseUno {
 
     public class ClaseDos implements InterfaceDos {
 
-        public InterfaceTres getClaseDos() {
+        public InterfaceTres getClaseTres() {
             return new ClaseTres();
         }
 
         public class ClaseTres implements InterfaceTres {
 
-            public InterfaceCuatro getClaseDos() {
+            public InterfaceCuatro getClaseCuatro() {
                 return new ClaseCuatro();
             }
 
             public class ClaseCuatro implements InterfaceCuatro {
-                public class ClaseCinco {
+
+                public InterfaceCinco getClaseCinco() {
+                    return new ClaseCinco();
+                }
+
+                public class ClaseCinco implements InterfaceCinco {
                     public class ClaseSeis {
                         public class ClaseSiete {
                             public class ClaseOcho {

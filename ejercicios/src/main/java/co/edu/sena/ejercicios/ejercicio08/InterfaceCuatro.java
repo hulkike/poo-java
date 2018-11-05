@@ -1,4 +1,5 @@
 package co.edu.sena.ejercicios.ejercicio08;
 
 public interface InterfaceCuatro {
+    public InterfaceCinco getClaseCinco();
 }
