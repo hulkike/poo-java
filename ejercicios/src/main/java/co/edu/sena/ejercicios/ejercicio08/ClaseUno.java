@@ -25,7 +25,12 @@ public class ClaseUno {
                 }
 
                 public class ClaseCinco implements InterfaceCinco {
-                    public class ClaseSeis {
+
+                    public InterfaceSeis getClaseSeis() {
+                        return new ClaseSeis();
+                    }
+
+                    public class ClaseSeis implements InterfaceSeis {
                         public class ClaseSiete {
                             public class ClaseOcho {
                                 public class ClaseNueve {
