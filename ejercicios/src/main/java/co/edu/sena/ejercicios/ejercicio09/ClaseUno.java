@@ -5,7 +5,9 @@ public class ClaseUno {
         public static class ClaseTres {
             public static class ClaseCuatro {
                 public static class ClaseCinco {
+                    public static class ClaseSeis {
 
+                    }
                 }
             }
         }
