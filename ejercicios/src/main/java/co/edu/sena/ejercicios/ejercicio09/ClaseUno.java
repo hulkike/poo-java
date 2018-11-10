@@ -8,7 +8,9 @@ public class ClaseUno {
                     public static class ClaseSeis {
                         public static class ClaseSiete {
                             public static class ClaseOcho {
+                                public static class ClaseNueve {
 
+                                }
                             }
                         }
                     }
