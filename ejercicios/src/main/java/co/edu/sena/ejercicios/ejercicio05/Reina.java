@@ -1,6 +1,6 @@
 package co.edu.sena.ejercicios.ejercicio05;
 
-public class Reina extends Hormiga {
+public class Reina extends Hormiga implements HormigaInterface {
     public void ponerHuevos(){
         System.out.println("pongo pongo huevitos");
     }
