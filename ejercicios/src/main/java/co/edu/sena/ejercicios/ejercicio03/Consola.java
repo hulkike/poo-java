@@ -1,6 +1,6 @@
 package co.edu.sena.ejercicios.ejercicio03;
 
-public class Consola {
+public abstract class Consola {
     private int controles;
     private String conectorSonido;
     private String conectorVideo;
