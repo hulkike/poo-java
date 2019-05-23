@@ -1,4 +1,4 @@
 package co.edu.sena.ejercicios.ejercicio02;
 
-public class SapoMacho extends Sapo {
+public final class SapoMacho extends Sapo {
 }

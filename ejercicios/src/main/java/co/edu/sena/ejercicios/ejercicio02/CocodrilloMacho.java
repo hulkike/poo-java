@@ -1,4 +1,4 @@
 package co.edu.sena.ejercicios.ejercicio02;
 
-public class CocodrilloMacho extends Cocodrilo {
+public final class CocodrilloMacho extends Cocodrilo {
 }

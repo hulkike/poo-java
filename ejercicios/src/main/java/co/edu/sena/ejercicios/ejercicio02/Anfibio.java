@@ -1,7 +1,7 @@
 package co.edu.sena.ejercicios.ejercicio02;
 
 
-public class Anfibio extends Vertebrado {
+public abstract class Anfibio extends Vertebrado {
     @Override
     public void comer() {
         System.out.println("soy omnívoro");

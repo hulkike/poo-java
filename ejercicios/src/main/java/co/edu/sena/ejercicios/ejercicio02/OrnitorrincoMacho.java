@@ -1,4 +1,4 @@
 package co.edu.sena.ejercicios.ejercicio02;
 
-public class OrnitorrincoMacho extends Ornitorrinco {
+public final class OrnitorrincoMacho extends Ornitorrinco {
 }

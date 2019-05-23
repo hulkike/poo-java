@@ -1,4 +1,4 @@
 package co.edu.sena.ejercicios.ejercicio02;
 
-public class AtunMacho extends Atun {
+public final class AtunMacho extends Atun {
 }
