@@ -5,7 +5,7 @@ import {Pan} from "./pan";
 import {Persona} from "./persona";
 import {Tamal} from "./tamal";
 
-let arbol: Arbol = new Arbol();
+const arbol: Arbol = new Arbol();
 arbol.altura = 20;
 arbol.color = "verde";
 arbol.diametro = 1;
@@ -18,7 +18,7 @@ console.log(arbol.diametro);
 console.log(arbol.edad);
 console.log(arbol.tipo);
 
-let avion: Avion = new Avion();
+const avion: Avion = new Avion();
 avion.capacidad = 2500;
 avion.color = "azul";
 avion.marca = "marca";
@@ -31,7 +31,7 @@ console.log(avion.marca);
 console.log(avion.color);
 console.log(avion.capacidad);
 
-let gafas: Gafas = new Gafas();
+const gafas: Gafas = new Gafas();
 console.log("GAFAS -----------------------------------");
 gafas.color = "rojas";
 gafas.estilo = "sin borde inferior";
@@ -44,7 +44,7 @@ console.log(gafas.grosor);
 console.log(gafas.color);
 console.log(gafas.estilo);
 
-let pan: Pan = new Pan();
+const pan: Pan = new Pan();
 pan.color = "cafe";
 pan.peso = 2;
 pan.precio = 2000;
@@ -57,7 +57,7 @@ console.log(pan.precio);
 console.log(pan.color);
 console.log(pan.peso);
 
-let persona: Persona = new Persona();
+const persona: Persona = new Persona();
 persona.colorCabello = "cafe";
 persona.colorOjos = "verdes";
 persona.colorPiel = "blanco";
@@ -70,12 +70,12 @@ console.log(persona.colorPiel);
 console.log(persona.colorCabello);
 console.log(persona.colorOjos);
 
-let tamal: Tamal = new Tamal();
-tamal.color="verde";
-tamal.peso=2;
-tamal.precio=5000;
-tamal.region="santander";
-tamal.tamanio="mediano";
+const tamal: Tamal = new Tamal();
+tamal.color = "verde";
+tamal.peso = 2;
+tamal.precio = 5000;
+tamal.region = "santander";
+tamal.tamanio = "mediano";
 console.log("TAMAL -----------------------------------");
 console.log(tamal.tamanio);
 console.log(tamal.region);

@@ -49,6 +49,3 @@ export class Arbol {
         this._tipo = value;
     }
 }
-
-
-
