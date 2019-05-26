@@ -6,8 +6,8 @@ export class Arbol {
     private _tipo: string;
 
     constructor() {
+        // constructor
     }
-
 
     get color(): string {
         return this._color;
@@ -49,8 +49,6 @@ export class Arbol {
         this._tipo = value;
     }
 }
-
-
 
 
 

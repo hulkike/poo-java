@@ -1,4 +1,4 @@
-export class AvionClass {
+export class Avion {
     private _color: string;
     private _precio: number;
     private _marca: string;
@@ -6,6 +6,7 @@ export class AvionClass {
     private _capacidad: number;
 
     constructor() {
+        // constructor
     }
 
     get color(): string {
