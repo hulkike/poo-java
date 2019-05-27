@@ -3,6 +3,8 @@ package co.edu.sena.ejercicios.ejercicio03;
 public class App {
     public static void main(String[] args) {
 
+        Play1Slim play1Slim = new Play1Slim(2,"RCA","RCA");
+        Play1Fat play1Fat = new Play1Fat(2,"RCA","RCA");
         Play2 play2 = new Play2(2, "RCA", "RCA");
         Play3 play3 = new Play3(2, "HDMI", "HDMI");
         Play4Fat play4Fat = new Play4Fat(2, "HDMI", "HDMI");
