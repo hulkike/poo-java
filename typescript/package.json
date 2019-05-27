@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ts-lint": "tslint -c tslint.json 'src/**/*.ts'"
-
+    "ts-lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "ts": "tsc"
   },
   "devDependencies": {
     "typescript": "^3.4.5",
