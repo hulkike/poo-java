@@ -12,8 +12,4 @@ export abstract class Animal {
     }
 
     public abstract nacer(): void;
-
-
 }
-
-
