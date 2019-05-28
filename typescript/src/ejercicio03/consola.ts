@@ -3,7 +3,7 @@ export abstract class Consola {
     private _conectorSonido: string;
     private _conectorVideo: string;
 
-    constructor(controles: number, conectorSonido: string, conectorVideo: string) {
+    protected constructor(controles: number, conectorSonido: string, conectorVideo: string) {
         this._controles = controles;
         this._conectorSonido = conectorSonido;
         this._conectorVideo = conectorVideo;
