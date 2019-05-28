@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "es5",
     "outDir": "html/dist"
   },
   "include": [
     "src/ejercicio01",
-    "src/ejercicio02"
+    "src/ejercicio02",
+    "src/ejercicio03"
   ]
 }

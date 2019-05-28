@@ -6,11 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "ts-lint": "tslint -c tslint.json 'src/**/*.ts'",
-    "ts": "tsc"
+    "compile": "tsc -p tsconfig.json",
+    "uml": "tsuml --glob ./src/**/*.ts"
   },
   "devDependencies": {
     "typescript": "^3.4.5",
-    "ts-lint": "^4.5.1"
+    "ts-lint": "^4.5.1",
+    "tsuml": "^0.0.1-alpha.8"
   },
   "author": "",
   "license": "ISC"
