@@ -10,10 +10,10 @@
     "uml": "tsuml --glob ./src/**/*.ts"
   },
   "devDependencies": {
-    "typescript": "^3.4.5",
     "ts-lint": "^4.5.1",
-    "tsuml": "^0.0.1-alpha.8"
+    "tsuml": "^0.0.1-alpha.8",
+    "typescript": "^3.4.5"
   },
-  "author": "",
+  "author": "Enrique Moreno",
   "license": "ISC"
 }
