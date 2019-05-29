@@ -1,6 +1,6 @@
 package co.edu.sena.ejercicios.ejercicio04;
 
-public class Celular {
+public abstract class Celular {
     public void encender(){
         System.out.println("prendido");
     }
