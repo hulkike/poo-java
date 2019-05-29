@@ -6,6 +6,7 @@
   "include": [
     "src/ejercicio01",
     "src/ejercicio02",
-    "src/ejercicio03"
+    "src/ejercicio03",
+    "src/ejercicio04"
   ]
 }
