@@ -55,7 +55,7 @@ public class App {
         Celular celular4 = new Iphone7();
         celular4.encender();
         celular4.apagar();
-        ;
+
 
     }
 }
