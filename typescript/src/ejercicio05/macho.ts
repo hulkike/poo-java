@@ -6,46 +6,46 @@ import {Soldado} from "./soldado.interface";
 
 export class Macho extends Hormiga implements Soldado, Obrero, Explorador {
     public arreglar(): void {
-        console.log("como");
+        console.log("arreglo las cosas");
     }
 
     public construir(): void {
-        console.log("como");
+        console.log("construyo el nido");
     }
 
     public cuidarCrias(): void {
-        console.log("como");
+        console.log("cuido las crias");
     }
 
     public defender(): void {
-        console.log("como");
+        console.log("defiendo el nido");
     }
 
     public excavar(): void {
-        console.log("como");
+        console.log("excavo");
     }
 
     public informar(): void {
-        console.log("como");
+        console.log("informo");
     }
 
     public investigar(): void {
-        console.log("como");
+        console.log("investigo");
     }
 
     public luchar(): void {
-        console.log("como");
+        console.log("lucho");
     }
 
     public marcarCaminos(): void {
-        console.log("como");
+        console.log("marco el camino");
     }
 
     public recolectar(): void {
-        console.log("como");
+        console.log("recolecto alimentos");
     }
 
-    vigilar(): void {
+    public vigilar(): void {
         console.log("vigilo");
     }
 }
