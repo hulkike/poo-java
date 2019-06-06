@@ -1,6 +1,6 @@
 export class Hormiga {
     public caminar(): void {
-        console.log("como");
+        console.log("camino");
     }
 
     public comer(): void {
@@ -8,19 +8,19 @@ export class Hormiga {
     }
 
     public correr(): void {
-        console.log("como");
+        console.log("corro");
     }
 
     public morir(): void {
-        console.log("como");
+        console.log("muero");
     }
 
     public nacer(): void {
-        console.log("como");
+        console.log("nascso");
     }
 
     public respirar(): void {
-        console.log("como");
+        console.log("respiro");
     }
 
 }
