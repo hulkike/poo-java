@@ -13,13 +13,13 @@ import {TarjetaVideo} from "./tarjeta.video";
 import {Bateria} from "./bateria";
 import {DiscoDuro} from "./disco.duro";
 
-export class Torre extends Parte{
+export class Torre extends Parte {
     private _discoDuro: DiscoDuro;
     private _tarjetaMadre: MotherBoard;
     private _tarjetaMemoria: Ram;
     private _fuente: Fuente;
     private _procesador: Procesador;
-    private _disipador: Disipador ;
+    private _disipador: Disipador;
     private _lectorCD: LectorCd;
     private _lectorDVD: LectorDvd;
     private _lectorBR: LectorBR;
@@ -142,4 +142,10 @@ export class Torre extends Parte{
     set bateria(value: Bateria) {
         this._bateria = value;
     }
+
+
+    toString(): string {
+        return "";
+    }
 }
+
