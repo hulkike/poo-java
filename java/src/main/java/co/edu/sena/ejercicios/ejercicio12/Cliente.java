@@ -1,7 +1,6 @@
 package co.edu.sena.ejercicios.ejercicio12;
 
 import java.util.List;
-import java.util.Objects;
 
 public class Cliente {
     private String tipoDocumento;
@@ -59,19 +58,7 @@ public class Cliente {
         this.facturas = facturas;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Cliente cliente = (Cliente) o;
-        return Objects.equals(tipoDocumento, cliente.tipoDocumento) &&
-                Objects.equals(numeroDocumento, cliente.numeroDocumento);
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(tipoDocumento, numeroDocumento);
-    }
 
     @Override
     public String toString() {
@@ -81,6 +68,7 @@ public class Cliente {
                 ", nombre='" + nombre + '\'' +
                 ", direccion='" + direccion + '\'' +
                 ", telefono='" + telefono + '\'' +
+                ", facturas=" + facturas +
                 '}';
     }
 }

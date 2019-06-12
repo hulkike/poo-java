@@ -1,6 +1,5 @@
 package co.edu.sena.ejercicios.ejercicio12;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Objects;
@@ -76,11 +75,13 @@ public class Factura {
 
     @Override
     public String toString() {
-        return "Factura{" +
+        return "\n\tFactura{" +
                 "idFactura=" + idFactura +
                 ", fecha=" + fecha +
                 ", totalFactura=" + totalFactura +
                 ", iva=" + iva +
+
+                ", items=" + items +
                 '}';
     }
 }

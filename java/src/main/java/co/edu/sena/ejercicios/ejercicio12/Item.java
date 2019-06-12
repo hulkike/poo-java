@@ -58,11 +58,10 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Item{" +
+        return "\n\t\tItem{" +
                 "cantidad=" + cantidad +
                 ", precioVenta=" + precioVenta +
                 ", producto=" + producto +
-                ", factura=" + factura +
                 '}';
     }
 }
