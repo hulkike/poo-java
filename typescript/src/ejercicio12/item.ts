@@ -1,5 +1,5 @@
-import {Producto} from "./producto";
 import {Factura} from "./factura";
+import {Producto} from "./producto";
 
 export class Item {
 

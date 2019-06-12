@@ -1,17 +1,17 @@
-import {Parte} from "../parte";
-import {MotherBoard} from "./mother.board";
-import {Ram} from "./ram";
-import {Fuente} from "./fuente";
-import {Procesador} from "./procesador";
-import {Disipador} from "./disipador";
-import {LectorCd} from "./lector.cd";
-import {LectorDvd} from "./lector.dvd";
-import {LectorBR} from "./lector.b.r";
-import {LectorDisquette} from "./lector.disquette";
-import {TarjetaSonido} from "./tarjeta.sonido";
-import {TarjetaVideo} from "./tarjeta.video";
 import {Bateria} from "./bateria";
 import {DiscoDuro} from "./disco.duro";
+import {Disipador} from "./disipador";
+import {Fuente} from "./fuente";
+import {LectorBR} from "./lector.b.r";
+import {LectorCd} from "./lector.cd";
+import {LectorDisquette} from "./lector.disquette";
+import {LectorDvd} from "./lector.dvd";
+import {MotherBoard} from "./mother.board";
+import {Parte} from "../parte";
+import {Procesador} from "./procesador";
+import {Ram} from "./ram";
+import {TarjetaSonido} from "./tarjeta.sonido";
+import {TarjetaVideo} from "./tarjeta.video";
 
 export class Torre extends Parte {
     private _discoDuro: DiscoDuro;
@@ -28,7 +28,8 @@ export class Torre extends Parte {
     private _tarjetaVideo: TarjetaVideo;
     private _bateria: Bateria;
 
-    constructor(serial: string, marca: string, discoDuro: DiscoDuro, tarjetaMadre: MotherBoard, tarjetaMemoria: Ram, fuente: Fuente, procesador: Procesador, disipador: Disipador) {
+    constructor(serial: string, marca: string, discoDuro: DiscoDuro, tarjetaMadre: MotherBoard, tarjetaMemoria: Ram,
+                fuente: Fuente, procesador: Procesador, disipador: Disipador) {
         super(serial, marca);
         this._discoDuro = discoDuro;
         this._tarjetaMadre = tarjetaMadre;
@@ -141,11 +142,6 @@ export class Torre extends Parte {
 
     set bateria(value: Bateria) {
         this._bateria = value;
-    }
-
-
-    toString(): string {
-        return "";
     }
 }
 

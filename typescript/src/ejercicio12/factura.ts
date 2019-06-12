@@ -7,7 +7,7 @@ export class Factura {
     private _totalFactura: number;
     private _iva: number;
     private _cliente: Cliente;
-    private _items: Array<Item>
+    private _items: Array<Item>;
 
 
     get idFactura(): number {
