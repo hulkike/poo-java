@@ -1,3 +1,4 @@
+import {Parte} from "../parte";
 import {Bateria} from "./bateria";
 import {DiscoDuro} from "./disco.duro";
 import {Disipador} from "./disipador";
@@ -7,11 +8,14 @@ import {LectorCd} from "./lector.cd";
 import {LectorDisquette} from "./lector.disquette";
 import {LectorDvd} from "./lector.dvd";
 import {MotherBoard} from "./mother.board";
-import {Parte} from "../parte";
 import {Procesador} from "./procesador";
 import {Ram} from "./ram";
 import {TarjetaSonido} from "./tarjeta.sonido";
 import {TarjetaVideo} from "./tarjeta.video";
+
+
+
+
 
 export class Torre extends Parte {
     private _discoDuro: DiscoDuro;

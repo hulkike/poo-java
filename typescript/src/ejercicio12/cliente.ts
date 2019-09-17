@@ -6,7 +6,7 @@ export class Cliente {
     private _nombre: string;
     private _direccion: string;
     private _telefono: string;
-    private _facturas: Array<Factura>;
+    private _facturas: Factura[];
 
 
     get tipoDocumento(): string {
@@ -49,11 +49,11 @@ export class Cliente {
         this._telefono = value;
     }
 
-    get facturas(): Array<Factura> {
+    get facturas(): Factura[] {
         return this._facturas;
     }
 
-    set facturas(value: Array<Factura>) {
+    set facturas(value: Factura[]) {
         this._facturas = value;
     }
 

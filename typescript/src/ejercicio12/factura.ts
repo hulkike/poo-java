@@ -7,7 +7,7 @@ export class Factura {
     private _totalFactura: number;
     private _iva: number;
     private _cliente: Cliente;
-    private _items: Array<Item>;
+    private _items: Item[];
 
 
     get idFactura(): number {
@@ -50,11 +50,11 @@ export class Factura {
         this._cliente = value;
     }
 
-    get items(): Array<Item> {
+    get items(): Item[] {
         return this._items;
     }
 
-    set items(value: Array<Item>) {
+    set items(value: Item[]) {
         this._items = value;
     }
 }
