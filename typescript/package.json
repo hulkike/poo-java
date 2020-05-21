@@ -7,12 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "ts-lint": "tslint -c tslint.json 'src/**/*.ts'",
     "compile": "tsc -p tsconfig.json",
-    "uml": "tsuml --glob ./src/**/*.ts"
+    "uml": "tsuml2 --glob ./src/**/*.ts",
+    "tplant": "tplant --input ./src/**/*.ts --output Playground.svg",
+    "tsuml": "tsuml ./src/**/*.ts diagram --makeimage"
   },
   "devDependencies": {
     "ts-lint": "^4.5.1",
-    "tsuml": "^0.0.1-alpha.8",
-    "typescript": "^3.6.3"
+    "tsuml2": "^0.2.0",
+    "typescript": "^3.9.3",
+    "tplant": "^2.3.3",
+    "tsuml-cli": "^0.0.4"
   },
   "author": "Enrique Moreno",
   "license": "ISC"
