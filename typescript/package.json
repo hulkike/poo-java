@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "ts-lint": "tslint -c tslint.json 'src/**/*.ts'",
     "compile": "tsc -p tsconfig.json",
+    "clean": "rimraf html/",
     "uml": "tsuml2 --glob ./src/**/*.ts",
     "tplant": "tplant --input ./src/**/*.ts --output Playground.svg",
     "tsuml": "tsuml ./src/**/*.ts diagram --makeimage"
@@ -14,9 +14,10 @@
   "devDependencies": {
     "ts-lint": "^4.5.1",
     "tsuml2": "^0.2.0",
-    "typescript": "^3.9.3",
+    "typescript": "^3.9.5",
     "tplant": "^2.3.3",
-    "tsuml-cli": "^0.0.4"
+    "tsuml-cli": "^0.0.4",
+    "rimraf": "^3.0.2"
   },
   "author": "Enrique Moreno",
   "license": "ISC"

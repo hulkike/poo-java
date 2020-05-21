@@ -5,7 +5,6 @@
     ],
     "jsRules": {},
     "rules": {
-        "interface-name": [true, "never-prefix"],
         "no-console": [
             true,
             "debug",
@@ -14,14 +13,14 @@
             "timeEnd",
             "trace"
         ],
-        "no-consecutive-blank-lines": false,
         "eofline": false,
+        "no-consecutive-blank-lines": false,
         "variable-name": [
             true,
             "ban-keywords",
             "check-format",
             "allow-leading-underscore"
-          ]
+        ]
     },
     "rulesDirectory": []
 }
